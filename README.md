@@ -33,7 +33,7 @@ This screenshot shows Clonezilla actively copying NTFS data blocks from the sour
 
 Windows Validation
 
-I booted the cloned Windows Server environment and verified system integrity using Disk Management and systeminfo.
+I booted the cloned Windows Server environment and verified system integrity using Disk Management and `systeminfo`.
 
 This screenshot shows successful boot validation, preserved partitions, and system details after cloning.
 
