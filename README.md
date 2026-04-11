@@ -39,6 +39,8 @@ This screenshot shows successful boot validation, preserved partitions, and syst
 
 <img src="./images/04-windows-validation-systeminfo.png" alt="Windows Validation" width="900"/>
 
+0000000000
+
 Key Skills Practiced
 
 * Disk cloning
