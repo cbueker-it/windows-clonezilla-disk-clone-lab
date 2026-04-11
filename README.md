@@ -39,7 +39,23 @@ This screenshot shows successful boot validation, preserved partitions, and syst
 
 <img src="./images/04-windows-validation-systeminfo.png" alt="Windows Validation" width="900"/>
 
-0000000000
+Clone Disk Attachment Verification
+
+I reviewed the virtual disk attachment inside Oracle VM VirtualBox before booting the system. This confirms the virtual machine was attached to the cloned disk rather than the source disk during validation.
+
+<img src="./images/hard-disk-selector.png" alt="VirtualBox hard disk selector showing cloned disk attachment" width="900"/>
+
+Source System Comparison
+
+I compared the source system before clone validation to confirm the original hostname and installation details. This helps explain why the cloned disk initially preserved the same system identity after imaging.
+
+<img src="./images/source-desktop-comparison.png" alt="Original Windows Server source system information" width="900"/>
+
+Cloned System Identity Validation
+
+I booted the cloned system after renaming the hostname to DOMCON02 and reviewed system information again. This confirms that the cloned disk preserved domain membership, system configuration, and Windows Server services.
+
+<img src="./images/clone-validation-cloned-desktop.png" alt="Cloned Windows Server validation with renamed hostname" width="900"/>
 
 Key Skills Practiced
 
