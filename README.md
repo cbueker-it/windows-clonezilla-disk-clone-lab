@@ -33,7 +33,7 @@ This screenshot shows Clonezilla actively copying NTFS data blocks from the sour
 
 Windows Validation
 
-I booted the cloned Windows Server environment and verified system integrity using `systeminfo` after the clone completed.
+I booted the cloned Windows Server environment, changed the background, added a txt file, and verified system integrity using `systeminfo` after the clone completed.
 
 This screenshot shows the cloned system running under the renamed hostname DOMCON02 while preserving the original installation date, domain membership, and Windows Server configuration.
 
