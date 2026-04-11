@@ -33,11 +33,11 @@ This screenshot shows Clonezilla actively copying NTFS data blocks from the sour
 
 Windows Validation
 
-I booted the cloned Windows Server environment and verified system integrity using Disk Management and `systeminfo`.
+I booted the cloned Windows Server environment and verified system integrity using `systeminfo` after the clone completed.
 
-This screenshot shows successful boot validation, preserved partitions, and system details after cloning.
+This screenshot shows the cloned system running under the renamed hostname DOMCON02 while preserving the original installation date, domain membership, and Windows Server configuration.
 
-<img src="./images/04-windows-validation-systeminfo.png" alt="Windows Validation" width="900"/>
+<img src="./images/clone-validation-cloned-desktop.png" alt="Cloned Windows Server validation with renamed hostname" width="900"/>
 
 Clone Disk Attachment Verification
 
@@ -50,12 +50,6 @@ Source System Comparison
 I compared the source system before clone validation to confirm the original hostname and installation details. This helps explain why the cloned disk initially preserved the same system identity after imaging.
 
 <img src="./images/source-desktop-comparison.png" alt="Original Windows Server source system information" width="900"/>
-
-Cloned System Identity Validation
-
-I booted the cloned system after renaming the hostname to DOMCON02 and reviewed system information again. This confirms that the cloned disk preserved domain membership, system configuration, and Windows Server services.
-
-<img src="./images/clone-validation-cloned-desktop.png" alt="Cloned Windows Server validation with renamed hostname" width="900"/>
 
 Key Skills Practiced
 
